@@ -1,0 +1,204 @@
+body,
+html {
+    font-family: "Montserrat", Lato, sans-serif;
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Top Wrapper */
+.comeet_top_wrapper {
+    background: linear-gradient(135deg, #3b4a5b, #26323A);
+    width: 100%;
+    min-height: 300px;
+    max-height: 360px;
+    padding: 60px 0;
+    margin-top: -30px;
+    display: block;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.comeet_top_inner_wrapper {
+    width: 86%;
+    margin: auto;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.all-jobs-link {
+    margin-top: 80px;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.all-jobs-link a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.all-jobs-link a:hover {
+    color: #ccc;
+}
+
+.comeet_department,
+.comeet_position_title,
+.comeet_position_location {
+    color: #fff;
+}
+
+.comeet_department {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.comeet_position_title {
+    font-size: 42px;
+    line-height: 1.3;
+    max-width: 75%;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.comeet_position_location {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Content Wrapper */
+.comeet_position_data_wrapper {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0 80px 0;
+}
+
+.comeet_position_data {
+    width: 100%;
+}
+
+.comeet-position-info h2 {
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000;
+}
+
+.comeet-user-text {
+    font-weight: 400;
+    color: #555;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .comeet_position_data_wrapper {
+        flex-direction: row;
+        justify-content: left;
+    }
+
+    .comeet_position_data {
+        width: 80%;
+    }
+
+    .all-jobs-link a {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 992px) {
+    .comeet_position_data_wrapper {
+        flex-direction: column;
+    }
+
+    .comeet_position_data {
+        width: 90%;
+    }
+
+    .comeet_top_inner_wrapper {
+        margin-left: 25px;
+    }
+
+    .comeet_department {
+        font-size: 18px;
+    }
+
+    .comeet_position_title {
+        font-size: 32px;
+    }
+
+    .comeet_position_location {
+        font-size: 14px;
+    }
+
+    .all-jobs-link a {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .comeet_top_wrapper {
+        padding-bottom: 0;
+        padding-top: 40px;
+        margin-top: -75px;
+        min-height: 370px;
+    }
+
+    .comeet_position_data_wrapper {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 420px) {
+    .comeet_top_wrapper {
+        padding-bottom: 50px;
+        min-height: 250px;
+        margin-top: -150px;
+        padding-top: 20px;
+    }
+
+    .comeet_top_inner_wrapper {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .all-jobs-link a {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .comeet_department {
+        font-size: 15px;
+        font-weight: 500;
+    }
+
+    .comeet_position_title {
+        font-size: 26px;
+        line-height: 1.4;
+        font-weight: 500;
+    }
+
+    .comeet_position_location {
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+
+    .comeet_position_data_wrapper {
+        width: 85%;
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+}
