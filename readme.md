@@ -17,7 +17,7 @@ UVeye is a computer vision company that develops automated inspection systems fo
 
 - **Job Listings:** Display current job openings with detailed descriptions.
 
-- **Comeet API Integration.**
+- **Comeet API Integration**
 
 ---
 
