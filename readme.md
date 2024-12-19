@@ -16,7 +16,7 @@ UVeye is a computer vision company that develops automated inspection systems fo
 ### Key Features:
 
 - **Job Listings:** Display current job openings with detailed descriptions.
-- **Interactive Elements:** User-friendly navigation and job application process.
+
 - **Comeet API Integration.**
 
 ---
